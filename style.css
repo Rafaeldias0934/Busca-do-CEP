@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+body {
+    background: #1F271B;
+    font-family: 'Yatra One', cursive;
+    text-align: center;
+    display: block;
+    
+}
+h1 {
+    color: #C6D6BF;
+}
+.input {
+    color: #C6D6BF;
+    font-size: 15pt; 
+}
+#cep {
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Yatra One', cursive; 
+    color: #1F271B;
+    font-size: 15pt;  
+}
+#endereco {
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Yatra One', cursive; 
+    color: #1F271B;
+    font-size: 15pt;   
+}
+#bairro {
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Yatra One', cursive; 
+    color: #1F271B;
+    font-size: 15pt;
+}
+#cidade {
+    padding: 10px;
+   border-radius: 20px;
+   font-family: 'Yatra One', cursive; 
+    color: #1F271B;
+    font-size: 15pt;
+    
+}
+#estado {
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Yatra One', cursive; 
+    color: #1F271B;
+    font-size: 15pt; 
+}
