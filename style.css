@@ -4,49 +4,25 @@ body {
     background: #1F271B;
     font-family: 'Yatra One', cursive;
     text-align: center;
-    display: block;
-    
+    display: block;  
 }
-h1 {
+.title {
     color: #C6D6BF;
 }
-.input {
+.row {
     color: #C6D6BF;
-    font-size: 15pt; 
+    font-size: 15pt;
+    padding-top: 15px; 
 }
-#cep {
+.box {
     padding: 10px;
     border-radius: 20px;
     font-family: 'Yatra One', cursive; 
     color: #1F271B;
     font-size: 15pt;  
 }
-#endereco {
-    padding: 10px;
-    border-radius: 20px;
-    font-family: 'Yatra One', cursive; 
-    color: #1F271B;
-    font-size: 15pt;   
-}
-#bairro {
-    padding: 10px;
-    border-radius: 20px;
-    font-family: 'Yatra One', cursive; 
-    color: #1F271B;
-    font-size: 15pt;
-}
-#cidade {
-    padding: 10px;
-   border-radius: 20px;
-   font-family: 'Yatra One', cursive; 
-    color: #1F271B;
-    font-size: 15pt;
-    
-}
-#estado {
-    padding: 10px;
-    border-radius: 20px;
-    font-family: 'Yatra One', cursive; 
-    color: #1F271B;
-    font-size: 15pt; 
+.baseboard {
+    color: #C6D6BF;
+    padding-top: 30px;
+    font-size: 10pt;
 }

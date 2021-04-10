@@ -8,35 +8,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="title">
         <h1>Consultar Código de Endereçamento Postal (CEP)</h1>
     </header>
     <section>
-        <div class="input">
-            <label for="Cep">CEP:</label>  
+
+        <div class="row">
+            <label for="Cep">CEP:</label>
+            <div>
+                <input class="box" type="text" id="cep" required>
+            </div>   
         </div>
-        <input type="text" id="cep" required>
-        <div class="input">
-            <label for="endereco">ENDEREÇO:</label>   
+
+        <div class="row">
+            <label for="endereco">ENDEREÇO:</label>
+            <div>
+                <input class="box" type="text"  id="endereco" required>
+            </div>
         </div>
-        <input type="text" name="endereco" id="endereco">
-        <div class="input">
+        
+        <div class="row">
             <label for="bairro">BAIRRO:</label>
+            <div >
+                <input class="box" type="text" id="bairro" required>
+            </div>  
         </div>
-        <input type="text" name="bairro" id="bairro">
-        <div class="input">
-            <label for="cidade">CIDADE:</label>  
+
+        <div class="row">
+            <label for="cidade">CIDADE:</label>
+            <div class="input">
+                <input class="box" type="text" id="cidade" required>   
+            </div>
         </div>
-        <input type="text" name="cidade" id="cidade">
-        <div class="input">
-            <label for="estado">ESTADO:</label>   
+
+        <div class="row">
+            <label for="estado">ESTADO:</label>
+            <div>
+                <input class="box"type="text" id="estado" required>
+            </div>
         </div>
-        <input type="text" name="estado" id="estado">
-        <div id="emoji">
-            
-        </div>
+
     </section>
-    <footer></footer>
+    <footer class="baseboard">
+        <p>Front-end By Rafael Dias &copy</p>
+    </footer>
 <script src="script.js"></script>
 </body>
 </html>
