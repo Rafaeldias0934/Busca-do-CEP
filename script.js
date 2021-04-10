@@ -1,13 +1,13 @@
 'use strict';
 
 const forms = (address) => {
-    document.getElementById('endereco').value = address.logradouro
-    document.getElementById('bairro').value = address.bairro
-    document.getElementById('cidade').value = address.localidade
-    document.getElementById('estado').value = address.uf
+    document.getElementById('address').value = address.logradouro
+    document.getElementById('district').value = address.bairro
+    document.getElementById('city').value = address.localidade
+    document.getElementById('state').value = address.uf
 }
 const searchcode = async() => {
-    const code = window.document.getElementById('cep').value
+    const code = window.document.getElementById('code').value
     const url = `https://viacep.com.br/ws/${code}/json/`
     const elements = await fetch(url)
     const address = await elements.json()
@@ -18,7 +18,7 @@ const searchcode = async() => {
         forms(address)    
     }
 }  
-document.getElementById('cep').addEventListener('focusout',searchcode);
+document.getElementById('code').addEventListener('focusout',searchcode);
 
 
 
