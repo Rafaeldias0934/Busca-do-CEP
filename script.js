@@ -7,7 +7,7 @@ const forms = (address) => {
     document.getElementById('state').value = address.uf
 }
 const searchcode = async() => {
-    const code = window.document.getElementById('code').value
+    const code = window.document.getElementById('zipcode').value
     const url = `https://viacep.com.br/ws/${code}/json/`
     const elements = await fetch(url)
     const address = await elements.json()
@@ -18,7 +18,7 @@ const searchcode = async() => {
         forms(address)    
     }
 }  
-document.getElementById('code').addEventListener('focusout',searchcode);
+document.getElementById('zipcode').addEventListener('focusout',searchcode);
 
 
 
